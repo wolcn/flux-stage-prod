@@ -45,7 +45,8 @@ metadata:
     app: kcheck
     type: service
 spec:
-  type: LoadBalancer
+  type: ClusterIP
+  # type: LoadBalancer
   selector:
     app: kcheck
   ports:
