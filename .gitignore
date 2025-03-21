@@ -25,3 +25,6 @@ go.work
 *.swp
 *.swo
 *~
+
+# Files I want to keep locally but not check in
+parked
